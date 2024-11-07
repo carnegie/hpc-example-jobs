@@ -4,14 +4,14 @@
 
 This repository contains Carnegie HPC intro example code and scripts to help users get started with the following modules and softwares.
 
--Anaconda\
--Astropy\
--Biopython\
--Jupyter Notebooks\
--MPI\
--mpi4py\
--Python\
--Tensorflow
+- Anaconda
+- Astropy
+- Biopython
+- Job Arrays
+- Jupyter Notebooks
+- MPI
+- Python
+- Tensorflow
 
 ## Getting Started
 
@@ -22,7 +22,7 @@ To run:
 
 ## Cloning the Repository
 
-Clone this to your local machine:
+Clone this to the cluster or your local machine:
 
       $ git clone https://github.com/carnegie/hpc-example-jobs.git
       $ cd hpc-example-jobs
