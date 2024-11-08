@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains Carnegie HPC intro example code and scripts to help users get started with the following modules and softwares.
+This repository contains Carnegie HPC intro example code and scripts to help users get started with the following modules, softwares and Slurm job management techniques.
 
 - Anaconda
 - Astropy
@@ -11,6 +11,7 @@ This repository contains Carnegie HPC intro example code and scripts to help use
 - Jupyter Notebooks
 - MPI
 - Python
+- Snakemake
 - Tensorflow
 
 ## Getting Started
