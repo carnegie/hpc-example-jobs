@@ -1,0 +1,43 @@
+# Snakefile
+
+# The Target rule
+rule all:
+    input:
+        "sorted_sums.txt"
+
+# The 'sum_squares' rule generates the sum of squares for each input file
+rule sum_squares_0:
+    input:
+        "0.in"  # Input file
+    output:
+        "0.txt"  # Output file for sum of squares
+    script:
+        "sum_squares.py"  # Python script that computes the sum of squares
+
+rule sum_squares_1:
+    input:
+        "1.in"
+    output:
+        "1.txt"
+    script:
+        "sum_squares.py"
+
+rule sum_squares_2:
+    input:
+        "2.in"
+    output:
+        "2.txt"
+    script:
+        "sum_squares.py"
+
+# The 'sort' rule sorts the sums and writes the final output to sorted_sums.txt
+rule sort:
+    input:
+        "0.txt",  # Sum file for 0.in
+        "1.txt",  # Sum file for 1.in
+        "2.txt"   # Sum file for 2.in
+    output:
+        "sorted_sums.txt"  # Final sorted output file
+    threads: 4
+    script:
+        "sort.py"  # Python script that sorts the sums and writes the result to sorted_sums.txt
