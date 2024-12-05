@@ -6,19 +6,17 @@ This code uses the Bio.Graphics.GenomeDiagram module. GenomeDiagram was designed
 
 This example also uses the Bio.Graphics module which depends on the third party Python library ReportLab. So to run this example of Biopython, please follow the instructions for setting up the environment first
 
-1. Create and activate a Conda environment
+1. In a terminal session, create and activate a Conda environment
     ```
-    $ module load anaconda
-    $ module load biopython
+    $ module load conda
     $ conda create --name biopython
     $ conda activate biopython
     ```
-
-2. Install the required package in the Conda environment
+2. Install the additionally required package in the Conda environment
     ```
     $ pip install reportlab
     ```
-3. Verify Installation
+3. Verify Installation on commandline
     ```
     $ python -c "import reportlab"
     $ python -c "import Bio"
@@ -26,5 +24,5 @@ This example also uses the Bio.Graphics module which depends on the third party 
 
 There are many ways to view the generated PDF, but one is to copy the output file to your local computer. If you are using command line, use rsync:
     ```
-    $ rsync -av --progress username@dtn.'div_name'hpc.carnegiescience.edu:/path/to/submit/dir/plasmid_linear.pdf /path/on/local/computer
+    $ rsync -av --progress user@dtn.clustername.carnegiescience.edu:/path/to/submit/dir/plasmid_linear.pdf /path/on/local/computer
     ```

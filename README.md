@@ -12,7 +12,7 @@ For a few of the more advanced examples, please refer to the README in the worki
 
 To run:
 
-      $user@host[~]:   ssh <user_name>@<division_name>hpc.carnegiescience.edu
+      $user@host[~]:   ssh <user>@<cluster>.carnegiescience.edu
       $user@host[~]:   cd $SLURM_SUBMIT_Dir
       $user@host[~]:   sbatch <script_name>.sh
 

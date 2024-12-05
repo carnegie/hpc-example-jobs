@@ -12,6 +12,6 @@ module purge
 module load stanford/matlab/r2024a
 
 #Run MATLAB with the GUI suppressed
-matlab -nodisplay -nosplash -r parfor
+matlab -batch parfor
 
 echo Demo script is finished
