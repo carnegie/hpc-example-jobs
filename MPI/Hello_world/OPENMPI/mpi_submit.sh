@@ -8,8 +8,8 @@
 module purge
 module load openmpi
 
-#Compile the source code (since this is written in c -> use mpicc)
+# Compile the source code (since this is written in c -> use mpicc)
 mpicc -o hello_world_mpi hello_world_mpi.c
 
-#Run across 4 CPU's (4 processes)
+# Run across 4 CPU's (4 processes)
 mpirun -n 4 ./hello_world_mpi

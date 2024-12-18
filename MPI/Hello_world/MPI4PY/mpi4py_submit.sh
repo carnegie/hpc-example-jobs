@@ -10,6 +10,8 @@ module purge
 module load conda
 module load openmpi
 
+# Activate mpi4py conda env
 conda activate mpi4py
 
+# Run across 4 CPU's (4 processes)
 mpirun -np 4 python3 hello_world_mpi.py

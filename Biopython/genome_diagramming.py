@@ -1,4 +1,4 @@
-# Biopython example taken from the [Biopython tutorials](https://biopython.org/docs/dev/Tutorial/chapter_graphics.html) pages. 
+#Biopython example taken from the [Biopython tutorials](https://biopython.org/docs/dev/Tutorial/chapter_graphics.html) pages. 
 
 # Genome diagraming
 from Bio import SeqIO
