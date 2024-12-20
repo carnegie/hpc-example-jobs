@@ -1,0 +1,21 @@
+Bootstrap: localimage
+From: /carnegie/nobackup/scratch/$USER/container_images/tensorflow-2.18.0-jupyter.sif
+
+%post
+    echo "Adding Astropy Package"
+    pip install astropy
+
+%runscript
+    echo "Container was created $NOW"
+
+%test
+    echo "looking for Astropy"
+    if python3 -c "import astropy" &> /dev/null; then
+        echo "Astropy is installed."
+    else
+        echo "Astropy is not installed."
+        exit 1
+    fi
+
+%help
+    This is a demo image used to illustrate a custom def file
