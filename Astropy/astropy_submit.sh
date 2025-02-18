@@ -10,7 +10,7 @@
 echo Demo script running on `hostname`
 
 module purge
-module load python
+module load astropy
 
 #Run using python3
 python3 cosmology.py
