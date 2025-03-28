@@ -4,7 +4,7 @@ This example demonstrates how to create and use a TensorBoard server through Car
 
 In this example, Tensorflow uses TensorBoard's Time Series Dashboard to visualize key metrics for ML Training using an API (visualize default and custom scalars). This tutorial provides basic examples to help you learn how to use these API's with TensorBoard while developing your Keras model.
 
-This notebook is a slightly motified version of a tutorial from Tensorflow for using TensorBoard Scalars on Carnegie Clusters sourced from: https://github.com/tensorflow/tensorboard/blob/master/docs/scalars_and_keras.ipynb
+This notebook is a slightly modified version of a tutorial from Tensorflow for using TensorBoard Scalars on Carnegie Clusters sourced from: https://github.com/tensorflow/tensorboard/blob/master/docs/scalars_and_keras.ipynb
 
 By following these steps, you should be able to recreate the Tensorboard setup on Carnegie HPC.
 
