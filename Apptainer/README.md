@@ -1,6 +1,6 @@
 ## Apptainer Instructions
 
-This repository contains three examples of using prebuilt Apptainer images built from Dockerhub, on our HPC Clusters. Containers provide users a way to package complex simulations with all necessary dependencies, input files, and configurations, ensuring reproducibility and ease of use for new users. The examples here are organized into different directories based on a combination of run-method and hardware resource requirements: Batch, GPU and Open OnDemand Juypter Notebook.
+This repository contains three examples of using prebuilt Apptainer images built from Dockerhub, on our HPC Clusters. Containers provide users a way to package complex simulations with all necessary dependencies, input files, and configurations, ensuring reproducibility and ease of use for new users. The examples here are organized into different directories based on a combination of run-method and hardware resource requirements: Batch, Bootstrapping, GPU, and Open OnDemand Jupyter Notebook.
 
 You can fetch images from container registries such as Docker Hub or the NVidia NGC Catalog. The instructions below show how to create an Apptainer container from a registry, set it up for use to run jobs in various configurations.
  
